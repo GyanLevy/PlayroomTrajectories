@@ -1,0 +1,96 @@
+# ===========================================================
+# Data: recordings of children must never be committed
+# ===========================================================
+
+# Data folders (keep all raw and derived data outside the repo)
+data/
+datasets/
+videos/
+recordings/
+raw/
+outputs/
+results/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.m4v
+*.mpg
+*.mpeg
+*.webm
+
+# Trajectories and per-child results produced by the tracking pipeline
+*_results.json
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.parquet
+*.h5
+*.hdf5
+
+# Spreadsheets with per-child data (session reports, exports)
+*.xlsx
+*.xls
+*.csv
+# To commit a CSV that holds no child data, add an exception, for example:
+# !docs/literature_reading_list.csv
+
+# Frames and crops extracted from videos
+frames/
+crops/
+
+# ===========================================================
+# Model weights (large; download on setup instead)
+# ===========================================================
+*.pt
+*.pth
+*.onnx
+*.engine
+weights/
+runs/
+
+# ===========================================================
+# Python
+# ===========================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local config
+.env
+.env.*
+*.local
+
+# ===========================================================
+# Editors and OS
+# ===========================================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office lock files (book drafts open in Word/PowerPoint)
+~$*
