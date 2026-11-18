@@ -20,8 +20,8 @@ We build the analysis layer on top of the trajectories it produces.
 
 ## Team
 
-- **Students:** Gyan Levy, Shira [last name]
-- **Advisors:** Julia Sheidin, Anat [last name]
+- **Students:** Gyan Levy, Shira Segev.
+- **Advisors:** Julia Sheidin, Anat Dahan.
 - **Research collaborators:** clinical and developmental psychology researchers, University of Haifa
 
 ## Repository structure
